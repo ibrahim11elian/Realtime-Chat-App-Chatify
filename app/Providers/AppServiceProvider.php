@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Chatify\ChatifyMessenger;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
