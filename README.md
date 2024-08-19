@@ -40,7 +40,7 @@ git clone https://github.com/ibrahim11elian/Realtime-Chat-App-Chatify.git
 ```
 
 ```bash
-cd realtime-chat-app
+cd Realtime-Chat-App-Chatify
 ```
 
 ### 2. Install Dependencies
@@ -63,6 +63,7 @@ Copy the `.env.example` file to `.env`:
 
 ```bash
 cp .env.example .env
+php artisan key:generate
 ```
 
 ### 4. Database Setup
